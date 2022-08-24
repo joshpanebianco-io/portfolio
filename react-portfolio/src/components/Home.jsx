@@ -1,11 +1,14 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import {Link} from 'react-scroll'
+import triangle from '../assets/triangle.avif';
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#0a192f]'>
-
+    <div name='home' 
+    // style={{ backgroundImage: `url(${triangle})` }}
+    className="w-full h-screen bg-no-repeat bg-cover  bg-[#0a192f]">
+       
             {/* Container */}
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
                 <p className='text-pink-600'>Hi, my name is</p>
